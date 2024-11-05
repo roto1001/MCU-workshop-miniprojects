@@ -5,16 +5,13 @@
 #include <Adafruit_SSD1306.h>
 #include <ArduinoJson.h>
 
-// Button pins
-#define ClearCredButtonPin 4
-
 // OLED display settings
 #define SCREEN_WIDTH 128
 #define SCREEN_HEIGHT 64
 #define OLED_RESET -1 
 
 // SD card settings
-#define CS_PIN 5
+#define CS_PIN 10
 #define SPI_SPEED SD_SCK_MHZ(4)
 
 
@@ -49,7 +46,7 @@ void initializeFiles() {
 
 
 void initializeSdCard() {
-  if (!sdcard.begin(CS_PIN, SPI_SPEED)) {
+  if (!sdcard.begin(CS, SPI_SPEED)) {
     Serial.println("SD initialization failed.");
     return;
   }
@@ -153,6 +150,9 @@ String getDataFromSerialInput() {
 
 void setup() {
   Serial.begin(9600);
+  while (!Serial){};
+  Serial.println("Serial connection established.");
+
   initializeDisplay();
   initializeSdCard();
 
