@@ -109,6 +109,8 @@ void displayCredentialsForm() {
 
 
 void updateCredentials(const char* ssid, const char* password) {
+  display.fillRect(59, 0, 40, 61 , BLACK);
+
   display.setTextColor(WHITE);
   display.setTextSize(1);
 
