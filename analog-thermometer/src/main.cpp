@@ -1,6 +1,6 @@
-#define ServoPin D0
+#define ServoPin D4
 #define DhtPin D2
-#define DhtType DHT11
+#define DhtType DHT22
 
 #include <Servo.h>
 #include <DHT.h>
@@ -11,7 +11,6 @@ DHT dht(DhtPin, DhtType);
 float temp = 0.00f;
 float lastTemp = 0.00f;
 
-/*#################################*/
 
 bool hasTemperatureChanged() {
   if(temp != lastTemp) {
@@ -39,11 +38,16 @@ int calcServoMovement() {
 }
 
 
-/*#################################*/
-
 void setup() {
   Serial.begin(9600);
-  myServo.attach(2);
+  myServo.attach(ServoPin);
+
+  myServo.write(0);
+  delay(1000);
+  myServo.write(180);
+  delay(1000);
+  myServo.write(90);
+  delay(1000);
 }
 
 
