@@ -28,7 +28,7 @@ float mapFloat(float x, float in_min, float in_max, float out_min, float out_max
 
 int calcServoMovement() {
   // Remove measuring failure by adding offset.
-  float calibratedTemp = temp + 5.0f;
+  float calibratedTemp = temp + 8.0f;
 
   Serial.println("(calibrated): " + String(calibratedTemp));
   

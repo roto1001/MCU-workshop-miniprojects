@@ -64,7 +64,6 @@ bool loadConfigData() {
   }
 
   String fileContent = wifiCredentialsFile.readString();
-  Serial.println(fileContent);
   wifiCredentialsFile.close();
 
   DeserializationError error = deserializeJson(configData, fileContent);
