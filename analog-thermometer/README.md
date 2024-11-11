@@ -1,8 +1,9 @@
 # Arduino Analog-Thermometer Project
-
+<!--
 ![analog-thermometer-project-image](assets/analog-thermometer.png)
+-->
 
-[Watch the video](assets/analog-thermometer.mp4)
+![analog-thermometer-project-gif](assets/analog-thermometer.gif)
 
 This project involves controlling a servo motor based on temperature readings from a DHT22 sensor. The servo position changes depending on the temperature, simulating a ventilation control system.
 
