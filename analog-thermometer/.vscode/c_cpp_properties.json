@@ -8,7 +8,6 @@
         {
             "name": "PlatformIO",
             "includePath": [
-                "c:/GitProjects/MCU-workshop-miniprojects/analog-thermometer/include",
                 "c:/GitProjects/MCU-workshop-miniprojects/analog-thermometer/src",
                 "C:/Users/Nutzer/.platformio/packages/framework-arduinoespressif8266/libraries/Servo/src",
                 "c:/GitProjects/MCU-workshop-miniprojects/analog-thermometer/.pio/libdeps/d1_mini_lite/DHT sensor library",
@@ -59,7 +58,6 @@
             "browse": {
                 "limitSymbolsToIncludedHeaders": true,
                 "path": [
-                    "c:/GitProjects/MCU-workshop-miniprojects/analog-thermometer/include",
                     "c:/GitProjects/MCU-workshop-miniprojects/analog-thermometer/src",
                     "C:/Users/Nutzer/.platformio/packages/framework-arduinoespressif8266/libraries/Servo/src",
                     "c:/GitProjects/MCU-workshop-miniprojects/analog-thermometer/.pio/libdeps/d1_mini_lite/DHT sensor library",
