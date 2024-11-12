@@ -1,10 +1,8 @@
-# Persistent-Credentials MicroSD Project
+# Arduino Persistent-Credentials MicroSD Project
 
+<!-- ![persistent-credentials-microsd-project-image](assets/persistent-credentials-microsd.png) -->
 
-![persistent-credentials-microsd-project-image](assets/persistent-credentials-microsd.png)
-
-<!-- 
-![persistent-credentials-microsd-project-gif](assets/persistent-credentials-microsd.gif) -->
+![persistent-credentials-microsd-project-gif](assets/persistent-credentials-microsd.gif)
 
 This project involves creating a system for securely storing and updating Wi-Fi credentials on an SD card using an Arduino Uno R4 Minima and an OLED display. It reads and writes credentials on the SD card, displays the current credentials on the OLED, and allows users to update them via serial input. The beauty of data persistense shows up after switching the power off and back on, your credentials should still be there.
 
@@ -33,8 +31,9 @@ Develop an Arduino project that saves Wi-Fi credentials (SSID and password) to a
 ## Required Components
 To complete this project, you will need the following components:
 
-- 1x ESP8266 D1 Mini NodeMcu
+- 1x Arduino Uno R4 Minima
 - 1x MicroSD card module
+- 1x MicroSD card (Formatted FAT16/32)
 - 1x OLED display (128x64 resolution)
 - Jumper wires
 - Breadboard
