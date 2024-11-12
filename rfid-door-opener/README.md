@@ -1,8 +1,8 @@
 # Arduino RFID Door Opener System
 
-![rfid-door-opener-project-image](assets/rfid-door-opener.png)
+<!-- ![rfid-door-opener-project-image](assets/rfid-door-opener.png) -->
 
-<!-- ![rfid-door-opener-project-gif](assets/rfid-door-opener.gif) -->
+![rfid-door-opener-project-gif](assets/rfid-door-opener.gif)
 
 
 This project involves using an RFID reader and an ESP32 NodeMCU D1 R32 to control access based on the UID of an RFID card. When a recognized card is scanned, a green LED lights up, and an access granted message is shown; for unrecognized cards, a red LED lights up, and access is denied. A buzzer gives audio feedback for both cases.
