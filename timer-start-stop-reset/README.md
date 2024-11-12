@@ -33,6 +33,7 @@ To complete this project, you will need the following components:
 
 - 1x Arduino Mega 2560 (Rev3)
 - 1x 4-digit 7-segment display
+- 3x 10k Ohm resistors
 - 3x Buttons
 - Jumper wires (Lots of!)
 - Breadboard
