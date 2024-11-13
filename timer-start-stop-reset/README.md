@@ -1,4 +1,4 @@
-# Timer Start-Stop-Reset Project
+# Arduino Timer Start-Stop-Reset Project
 
 <!-- ![timer-start-stop-reset-project-image](assets/timer-start-stop-reset.png) -->
 
@@ -7,7 +7,7 @@
 This project involves creating a digital timer with start, stop, and reset functionality, controlled by physical buttons. The timer counts seconds and displays the value on a 4-digit 7-segment display. When the start button is pressed, the timer begins counting up; when the stop button is pressed, the timer stops; and pressing the reset button resets the timer to zero.
 
 ## Table of Contents
-- [Timer Start-Stop-Reset Project](#timer-start-stop-reset-project)
+- [Arduino Timer Start-Stop-Reset Project](#arduino-timer-start-stop-reset-project)
   - [Table of Contents](#table-of-contents)
   - [Project Task](#project-task)
   - [Required Components](#required-components)
