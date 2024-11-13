@@ -1,3 +1,16 @@
+/*
+ * Project: timer-start-stop-reset
+ * 
+ * Author: Robert Tomor
+ * Date Created: 6.11.2024
+ * Last Modified: 13.11.2024
+ * 
+ * License: MIT License
+ * 
+ * Copyright (c) 2024 Robert Tomor
+*/
+
+
 #define StartButtonPin 18
 #define StopButtonPin 3
 #define ResetButtonPin 2

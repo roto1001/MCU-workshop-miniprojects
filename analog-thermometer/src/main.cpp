@@ -1,3 +1,16 @@
+/*
+ * Project: analog-thermometer
+ * 
+ * Author: Robert Tomor
+ * Date Created: 6.11.2024
+ * Last Modified: 13.11.2024
+ * 
+ * License: MIT License
+ * 
+ * Copyright (c) 2024 Robert Tomor
+*/
+
+
 #define ServoPin D4
 #define DhtPin D2
 #define DhtType DHT22

@@ -1,3 +1,16 @@
+/*
+ * Project: persistent-credentials-microsd
+ * 
+ * Author: Robert Tomor
+ * Date Created: 6.11.2024
+ * Last Modified: 13.11.2024
+ * 
+ * License: MIT License
+ * 
+ * Copyright (c) 2024 Robert Tomor
+*/
+
+
 #include <Arduino.h>
 #include <SPI.h>
 #include <SdFat.h>
