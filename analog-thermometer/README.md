@@ -37,7 +37,7 @@ To complete this project, you will need the following components:
 - 1x ESP8266 D1 Mini NodeMcu
 - 1x DHT22 temperature and humidity sensor
 - 1x Servo motor (range minimum 0&deg; to 180&deg;)
-- 1x [Thermometer scale paper]() 
+- 1x [Thermometer scale paper](https://cdn.instructables.com/ORIG/FYV/HI3Q/IY4QP5G5/FYVHI3QIY4QP5G5.pdf) 
 - Jumper wires
 - Breadboard
 
