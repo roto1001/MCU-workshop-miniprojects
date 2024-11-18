@@ -53,9 +53,9 @@ Refer to the pinout diagram and follow the wiring instructions to connect the co
 ## Programming
 
 ### PlatformIO Config
-Platform = espressif32
-Board = wemos_d1_uno32
-Framework = arduino
+- Platform = espressif32
+- Board = wemos_d1_uno32
+- Framework = arduino
 
 ### Arduino Language Overview
 The Arduino programming environment is based on C++ and uses basic data types and syntax similar to C++. Key elements include:

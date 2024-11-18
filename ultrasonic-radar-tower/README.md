@@ -51,9 +51,9 @@ Refer to the pinout diagram and follow the wiring instructions to connect the co
 ## Programming
 
 ### PlatformIO Config
-Platform = espressif8266
-Board = d1_mini_lite
-Framework = arduino
+- Platform = espressif8266
+- Board = d1_mini_lite
+- Framework = arduino
 
 ### Arduino Language Overview
 The Arduino programming environment is based on C++ and uses basic data types and syntax similar to C++. Key elements include:

@@ -51,9 +51,9 @@ Refer to the pinout diagram and follow the wiring instructions to connect the co
 ## Programming
 
 ### PlatformIO Config
-Platform = renesas-ra
-Board = uno_r4_minima
-Framework = arduino
+- Platform = renesas-ra
+- Board = uno_r4_minima
+- Framework = arduino
 
 ### Arduino Language Overview
 The Arduino programming environment is based on C++ and uses basic data types and syntax similar to C++. Key elements include:
