@@ -7,7 +7,7 @@
 This project involves creating a system for securely storing and updating Wi-Fi credentials on an SD card using an Arduino Uno R4 Minima and an OLED display. It reads and writes credentials on the SD card, displays the current credentials on the OLED, and allows users to update them via serial input. The beauty of data persistense shows up after switching the power off and back on, your credentials should still be there.
 
 ## Table of Contents
-- [Persistent-Credentials MicroSD Project](#persistent-credentials-microsd-project)
+- [Arduino Persistent-Credentials MicroSD Project](#arduino-persistent-credentials-microsd-project)
   - [Table of Contents](#table-of-contents)
   - [Project Task](#project-task)
   - [Required Components](#required-components)
@@ -15,6 +15,7 @@ This project involves creating a system for securely storing and updating Wi-Fi 
     - [Pinout Arduino Uno R4 Minima](#pinout-arduino-uno-r4-minima)
     - [Circuit Diagram](#circuit-diagram)
   - [Programming](#programming)
+    - [PlatformIO Config](#platformio-config)
     - [Arduino Language Overview](#arduino-language-overview)
     - [Arduino Serial Monitor](#arduino-serial-monitor)
     - [Required Libraries](#required-libraries)
@@ -48,6 +49,11 @@ Refer to the pinout diagram and follow the wiring instructions to connect the co
 ![persistent-credentials-microsd_circuit](assets/persistent-credentials-microsd_Steckplatine.png)
 
 ## Programming
+
+### PlatformIO Config
+Platform = renesas-ra
+Board = uno_r4_minima
+Framework = arduino
 
 ### Arduino Language Overview
 The Arduino programming environment is based on C++ and uses basic data types and syntax similar to C++. Key elements include:

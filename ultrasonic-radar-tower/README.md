@@ -16,6 +16,7 @@ This project uses an ultrasonic sensor mounted on a servo motor to measure dista
     - [Pinout ESP8266 D1 Mini NodeMcu](#pinout-esp8266-d1-mini-nodemcu)
     - [Circuit Diagram](#circuit-diagram)
   - [Programming](#programming)
+    - [PlatformIO Config](#platformio-config)
     - [Arduino Language Overview](#arduino-language-overview)
     - [Core Arduino Functions](#core-arduino-functions)
     - [Required Libraries](#required-libraries)
@@ -48,6 +49,11 @@ Refer to the pinout diagram and follow the wiring instructions to connect the co
 ![ultrasonic-radar-tower-circuit-diagram](assets/ultrasonic-radar-tower_Steckplatine.png)
 
 ## Programming
+
+### PlatformIO Config
+Platform = espressif8266
+Board = d1_mini_lite
+Framework = arduino
 
 ### Arduino Language Overview
 The Arduino programming environment is based on C++ and uses basic data types and syntax similar to C++. Key elements include:

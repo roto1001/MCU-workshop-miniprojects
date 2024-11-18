@@ -16,6 +16,7 @@ This project involves using an RFID reader and an ESP32 NodeMCU D1 R32 to contro
     - [Pinout ESP32 NodeMCU D1 R32](#pinout-esp32-nodemcu-d1-r32)
     - [Circuit Diagram](#circuit-diagram)
   - [Programming](#programming)
+    - [PlatformIO Config](#platformio-config)
     - [Arduino Language Overview](#arduino-language-overview)
     - [Core Arduino Functions](#core-arduino-functions)
     - [Required Libraries](#required-libraries)
@@ -50,6 +51,11 @@ Refer to the pinout diagram and follow the wiring instructions to connect the co
 ![rfid-door-opener-circuit](assets/rfid-door-opener_Steckplatine.png)
 
 ## Programming
+
+### PlatformIO Config
+Platform = espressif32
+Board = wemos_d1_uno32
+Framework = arduino
 
 ### Arduino Language Overview
 The Arduino programming environment is based on C++ and uses basic data types and syntax similar to C++. Key elements include:

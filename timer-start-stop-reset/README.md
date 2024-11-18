@@ -15,6 +15,7 @@ This project involves creating a digital timer with start, stop, and reset funct
     - [Pinout Arduino Mega 2560 (Rev3)](#pinout-arduino-mega-2560-rev3)
     - [Circuit Diagram](#circuit-diagram)
   - [Programming](#programming)
+    - [PlatformIO Config](#platformio-config)
     - [Arduino Language Overview](#arduino-language-overview)
     - [Core Arduino Functions](#core-arduino-functions)
     - [Required Libraries](#required-libraries)
@@ -48,6 +49,11 @@ Refer to the pinout diagram and follow the wiring instructions to connect the co
 ![timer-start-stop-reset-circuit](assets/timer-start-stop-reset_Steckplatine.png)
 
 ## Programming
+
+### PlatformIO Config
+Platform = atmelavr
+Board = megaatmega2560
+Framework = arduino
 
 ### Arduino Language Overview
 The Arduino programming environment is based on C++ and uses basic data types and syntax similar to C++. Key elements include:

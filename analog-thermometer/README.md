@@ -16,6 +16,7 @@ This project involves controlling a servo motor based on temperature readings fr
     - [Pinout ESP8266 D1 Mini NodeMcu](#pinout-esp8266-d1-mini-nodemcu)
     - [Circuit diagram](#circuit-diagram)
   - [Programming](#programming)
+    - [PlatformIO Config](#platformio-config)
     - [Arduino Language Overview](#arduino-language-overview)
     - [Core Arduino Functions](#core-arduino-functions)
     - [Required Libraries](#required-libraries)
@@ -50,6 +51,11 @@ This pinout diagram is necessary for defining pins and wiring the components acc
 ![analog_thermometer_circuit_diagram](assets/analog-thermometer_Steckplatine.png)
 
 ## Programming
+
+### PlatformIO Config
+Platform = espressif8266
+Board = d1_mini_lite
+Framework = arduino
 
 ### Arduino Language Overview
 The Arduino programming environment is based on C++ and uses basic data types and syntax similar to C++. Key elements include:
